@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project>
 	
-	<meta title="OpenFunkin" package="com.sample.openfunkin" version="1.0.0" company="Company Name" />
+	<meta title="OpenFunkin" package="com.LeonGamerPS1.openfunkin" version="1.0.0" company="LeonGamerPS1" />
 	<app main="Main" path="Export" file="OpenFunkin" />
 	
 	<source path="source" />
@@ -9,6 +9,7 @@
 	
 	
 	<haxelib name="openfl" />
+	<haxelib name="lime" />
 	
 	<assets path="assets" rename="assets" />
 	
