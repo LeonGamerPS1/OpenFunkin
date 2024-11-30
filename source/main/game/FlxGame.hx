@@ -8,7 +8,7 @@ class FlxGame extends DisplayObject
 
 	public static var nextState(default, set):State;
 
-	public function new(state:State,fps:Float = 60)
+	public function new(state:State,fps:Float = 900)
 	{
         super();
         

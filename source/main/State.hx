@@ -36,7 +36,7 @@ class State
 		{
 			var errMsg:String = 'Crash! Error: \n$e           ';
 			Application.current.window.alert(errMsg, 'Crash Handler from main.State');
-			Sys.exit(1);
+            throw e;
 		}
 	}
 
